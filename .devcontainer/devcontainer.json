@@ -1,0 +1,13 @@
+{
+  "name": "react-debian11",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": ["dbaeumer.vscode-eslint", "esbenp.prettier-vscode"]
+    }
+  },
+  // "postStartCommand": "yarn i",
+  "remoteUser": "vscode"
+}

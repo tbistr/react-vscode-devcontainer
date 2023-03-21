@@ -1,0 +1,25 @@
+{
+  // terminal settings
+  "terminal.integrated.profiles.linux": {
+    "fish": {
+      "path": "fish"
+    },
+    "bash": {
+      "path": "bash",
+      "icon": "terminal-bash"
+    }
+  },
+  "eslint.workingDirectories": [{ "mode": "auto" }],
+  "terminal.integrated.defaultProfile.linux": "fish",
+  "editor.formatOnSave": true,
+  "eslint.format.enable": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.organizeImports": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[jsonc]": {
+    // memo: Multiple lang specify settings like "[typescript][javascript][json][jsonc]" doesn't works.
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
